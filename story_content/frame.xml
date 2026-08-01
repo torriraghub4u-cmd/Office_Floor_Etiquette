@@ -6,6 +6,7 @@
     <layout name="npxnabnsnfns10111100101" font="Lato" controllayout="npxnabnsnfns10111100101" colorscheme="npnxnanbnsnfns10111100101" string_table="npnxnanbnsnfns10111100101" />
     <layout name="npnxnanbnsnfns10111100101" font="Lato" controllayout="npnxnanbnsnfns10111100101" colorscheme="npnxnanbnsnfns10111100101" string_table="npnxnanbnsnfns10111100101" />
     <layout name="pxabnsnfns10111100100" font="Lato" controllayout="pxabnsnfns10111100100" colorscheme="npnxnanbnsnfns10111100101" string_table="npnxnanbnsnfns10111100101" />
+    <layout name="pxnanbnsnfns10111100101" font="Lato" controllayout="pxnanbnsnfns10111100101" colorscheme="npnxnanbnsnfns10111100101" string_table="npnxnanbnsnfns10111100101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -62,7 +63,7 @@
           <option name="volume" value="true" />
           <option name="seekbar" value="true">
             <options>
-              <option name="readonly" value="true" />
+              <option name="readonly" value="false" />
               <option name="readonlyOnce" value="false" />
             </options>
           </option>
@@ -224,6 +225,31 @@
         </controls>
       </control>
       <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pxnanbnsnfns10111100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
     </control_layout>
   </control_layouts>
   <colorschemes>

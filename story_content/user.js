@@ -16,7 +16,7 @@ var slideHeight = player.slideHeight;
 var getKeyDown = player.getKeyDown;
 var keydown = player.keydown;
 var keyup = player.keyup;
-window.Script1 = function()
+window.Script5 = function()
 {
   (function() {
     // Define the confetti effect within the slide
