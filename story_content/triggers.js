@@ -2,20 +2,26 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5WhXpEMQhWj":
+      case "5sp6tYuueV3":
         Script1();
         break;
-      case "5r2pyNxduTi":
+      case "5qSutjvFnNq":
         Script2();
         break;
-      case "64TnknXgagW":
+      case "64gvJJzDC9G":
         Script3();
         break;
-      case "5osOGsK8mIF":
+      case "6SOJt5DmqEt":
         Script4();
         break;
-      case "6lj6Q63Hqr7":
+      case "67y6y1MMb2w":
         Script5();
+        break;
+      case "62ujSBJ3S4q":
+        Script6();
+        break;
+      case "5eRlHlYfDoL":
+        Script7();
         break;
   }
 }
@@ -100,6 +106,48 @@ player.addForTriggers(
 id,
 target.animate(
 [ {scale: `${1 + growAmount}` } ]
+,
+  { fill: 'forwards', duration, easing }
+)
+);
+}
+
+window.Script5 = function()
+{
+  const target = object('6aqYRW7Pwn2');
+const duration = 750;
+const easing = 'ease-out';
+const id = '5aCyg106KSo';
+const teeterAmount = 4;
+player.addForTriggers(
+id,
+target.animate(
+[ {rotate: '0deg' }, 
+{rotate: `-${teeterAmount}deg` }, 
+{rotate: `${teeterAmount}deg` }, 
+{rotate: `-${teeterAmount}deg` }, 
+{rotate: '0deg' } ]
+,
+  { fill: 'forwards', duration, easing }
+)
+);
+}
+
+window.Script6 = function()
+{
+  const target = object('5szx4DNCsjH');
+const duration = 750;
+const easing = 'ease-out';
+const id = '6qpMA08hUhD';
+const teeterAmount = 4;
+player.addForTriggers(
+id,
+target.animate(
+[ {rotate: '0deg' }, 
+{rotate: `-${teeterAmount}deg` }, 
+{rotate: `${teeterAmount}deg` }, 
+{rotate: `-${teeterAmount}deg` }, 
+{rotate: '0deg' } ]
 ,
   { fill: 'forwards', duration, easing }
 )
